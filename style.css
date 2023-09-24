@@ -15,6 +15,7 @@
 
 }
 
+
 .lightGrey {
     background-color: lightgray;
     color: black;
@@ -24,7 +25,7 @@
     background-color: darkgray;
 }
 
-.operator {
+.operator, .equals {
     background-color: orange;
 }
 
@@ -68,4 +69,8 @@
 .zero {
     flex-grow: 2;
     max-width: 182px;
+}
+
+.selected {
+    background-color: bisque;
 }
